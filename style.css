@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container_left{
+    width: 32%;
+    background-color: #F6EDE6;
+}
+
+.container_right{
+    width:68%;
+    padding-left: 88px;
+    padding-right: 170px;
+    background-color: #FFFFFF;
+}
+
+.summery{
+    margin-top: 102px;
+    height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summery p{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.projects{
+    margin-top: 64px;
+    height: 107px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.projects h2{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.projects>div{
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.project_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.number{
+    margin-right: 14px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.comment{
+    color: #595959;
+    font-weight: 400;
+    font-size: 14px;
+}
+.project_link div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    color: #005FFF;
+}
+
+.interval{
+    width: auto;
+    border-bottom: 1px dashed #A8A8A8;
+}
+
+.container_links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.container_experience{
+    margin-top: 50px;
+}
+
+.workplase{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 10px 0px;
+}
+
+.workplase p{
+    margin-left: 10px;
+    color: #6D9BF5;
+}
+
+.year_country{
+    color: #A8A8A8;
+    margin-top: 10px;
+}
+
+.functional{
+    margin: 12px 0px 20px 15px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #595959;
+}
+
+.container_education{
+    margin-top: 30px;
+}
+
+.school{
+    color: #6D9BF5;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 0px;
+}
+
+.photo{
+    margin-top: 40px;
+    width: 370px;
+    height: 355px;
+}
+
+.photo img{
+    width: 370px;
+    height: 355px;
+    object-fit: contain;
+}
+
+.contacts,
+.techSkills,
+.languages{
+    margin-top: 100px;
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.phone,
+.mail, 
+.address,
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.address p{
+    color: #005FFF;
+    text-decoration: underline;
+}
+
+.techSkills ul,
+.languages ul{
+  margin-left: 20px;
+}
+
+.techSkills li,
+.languages li{
+    color: #161D2A;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.title_block{
+    border-bottom: 1px solid #A8A8A8;
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+span::before{
+    content: " Coursework: developing of Online Store";
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+}
